@@ -1,4 +1,4 @@
-package library.domain;
+package com.nmertcan.library.domain;
 
 import java.time.LocalDate;
 import java.util.Objects;

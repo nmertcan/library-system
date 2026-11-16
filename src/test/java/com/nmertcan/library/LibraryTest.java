@@ -1,12 +1,12 @@
-package library;
+package com.nmertcan.library;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import library.domain.*;
-import library.exception.LibraryException;
-import library.service.Library;
-import library.service.PercentageFeePolicy;
-import library.service.StandardFeePolicy;
+import com.nmertcan.library.domain.*;
+import com.nmertcan.library.exception.LibraryException;
+import com.nmertcan.library.service.Library;
+import com.nmertcan.library.service.PercentageFeePolicy;
+import com.nmertcan.library.service.StandardFeePolicy;
 import java.math.BigDecimal;
 import java.time.*;
 import static org.junit.jupiter.api.Assertions.*;

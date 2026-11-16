@@ -1,7 +1,7 @@
-package library.repository;
+package com.nmertcan.library.repository;
 
-import library.domain.*;
-import library.exception.LibraryException;
+import com.nmertcan.library.domain.*;
+import com.nmertcan.library.exception.LibraryException;
 import java.math.BigDecimal;
 import java.util.*;
 

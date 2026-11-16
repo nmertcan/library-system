@@ -2,6 +2,8 @@
 
 Java 17 ve Maven ile yazılmış, bellek içi çalışan konsol kütüphane uygulaması. Nesne yönelimli tasarım ilkelerini ve temel kütüphane işlemlerini örnekler.
 
+Java paket kökü `com.nmertcan.library` olarak düzenlenmiştir. Konsol giriş sınıfı `com.nmertcan.library.ConsoleApplication` içindedir.
+
 ## Çalıştırma
 
 Java 17+ ve Maven 3.8+ gerekir. Proje klasöründe:

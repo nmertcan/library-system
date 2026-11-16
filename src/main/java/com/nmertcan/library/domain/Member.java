@@ -1,4 +1,4 @@
-package library.domain;
+package com.nmertcan.library.domain;
 
 import java.util.Collections;
 import java.util.LinkedHashSet;

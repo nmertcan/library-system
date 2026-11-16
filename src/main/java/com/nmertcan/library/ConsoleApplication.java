@@ -1,7 +1,7 @@
-package library;
+package com.nmertcan.library;
 
-import library.domain.*;
-import library.service.Library;
+import com.nmertcan.library.domain.*;
+import com.nmertcan.library.service.Library;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Scanner;

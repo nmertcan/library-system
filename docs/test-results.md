@@ -1,10 +1,10 @@
 # Test sonuçları
 
-15 Kasım 2026, Europe/Istanbul.
+16 Kasım 2026, Europe/Istanbul. Paket adı değişikliğinden sonra yeniden çalıştırıldı.
 
-Ortam: Java 25 JDK üzerinde `maven.compiler.release=17` ile derleme; Maven 3.9.9; JUnit 5.11.4.
+Ortam: Java 25 JDK üzerinde `maven.compiler.release=17` ile derleme; Maven 3.9.16; JUnit 5.11.4.
 
-`mvn test`: **BUILD SUCCESS**. 7 test çalıştı; 0 başarısız, 0 hata, 0 atlanan test. Ücret politikası polymorphism testi eklendikten sonra testler çevrimdışı Maven çalıştırmasıyla tekrar geçti.
+`mvn test`: **BUILD SUCCESS**. 7 test çalıştı; 0 başarısız, 0 hata, 0 atlanan test. Test sınıfı `com.nmertcan.library.LibraryTest` olarak çalıştı.
 
 Konsol denemesi: üye ekleme → kitap ekleme → ödünç verme → 20.00 TL fatura/tahsilat → iade → 20.00 TL geri ödeme akışı başarıyla tamamlandı.
 

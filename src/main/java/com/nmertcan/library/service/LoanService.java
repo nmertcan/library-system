@@ -1,8 +1,8 @@
-package library.service;
+package com.nmertcan.library.service;
 
-import library.domain.*;
-import library.exception.LibraryException;
-import library.repository.*;
+import com.nmertcan.library.domain.*;
+import com.nmertcan.library.exception.LibraryException;
+import com.nmertcan.library.repository.*;
 import java.time.Clock;
 import java.time.LocalDate;
 import java.util.*;

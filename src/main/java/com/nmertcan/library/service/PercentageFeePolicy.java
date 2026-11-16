@@ -1,6 +1,6 @@
-package library.service;
+package com.nmertcan.library.service;
 
-import library.domain.Book;
+import com.nmertcan.library.domain.Book;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Objects;

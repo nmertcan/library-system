@@ -1,4 +1,4 @@
-package library.domain;
+package com.nmertcan.library.domain;
 
 public final class Author extends Person {
     public Author(String id, String name) { super(id, name); }

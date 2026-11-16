@@ -1,7 +1,7 @@
-package library.repository;
+package com.nmertcan.library.repository;
 
-import library.domain.Member;
-import library.exception.LibraryException;
+import com.nmertcan.library.domain.Member;
+import com.nmertcan.library.exception.LibraryException;
 import java.util.*;
 
 public final class MemberRegistry {

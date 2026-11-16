@@ -1,4 +1,4 @@
-package library.domain;
+package com.nmertcan.library.domain;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

@@ -1,7 +1,7 @@
-package library.service;
+package com.nmertcan.library.service;
 
-import library.domain.*;
-import library.exception.LibraryException;
+import com.nmertcan.library.domain.*;
+import com.nmertcan.library.exception.LibraryException;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.*;
