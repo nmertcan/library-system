@@ -19,14 +19,36 @@ public final class ConsoleApplication {
     public void run() {
         System.out.println("Kütüphane sistemine hoş geldiniz. Veriler uygulama açıkken bellekte tutulur.");
         while (true) {
-            System.out.println("\n1 Kitap ekle  2 Kitap güncelle  3 Kitap sil  4 ID ile bul");
-            System.out.println("5 Ada göre ara  6 Yazara göre ara/listele  7 Kategoriye göre listele  8 Tüm kitaplar");
-            System.out.println("9 Üye ekle  10 Ödünç ver  11 İade al  12 Ödünç/fatura geçmişi  0 Çıkış");
+            printMenu();
             String choice = prompt("Seçim");
             if (choice == null || choice.equals("0")) return;
             try { execute(choice); }
             catch (RuntimeException e) { System.out.println("Hata: " + e.getMessage()); }
         }
+    }
+    private void printMenu() {
+        System.out.println("""
+
+                ===== KÜTÜPHANE MENÜSÜ =====
+                Kitap işlemleri
+                 1  Kitap ekle
+                 2  Kitap güncelle
+                 3  Kitap sil
+                 4  ID ile bul
+                 5  Ada göre ara
+                 6  Yazara göre ara/listele
+                 7  Kategoriye göre listele
+                 8  Tüm kitaplar
+
+                Üye ve ödünç işlemleri
+                 9  Üye ekle
+                10  Ödünç ver
+                11  İade al
+                12  Ödünç/fatura geçmişi
+
+                 0  Çıkış
+                ===========================
+                """);
     }
     private void execute(String choice) {
         switch (choice) {
